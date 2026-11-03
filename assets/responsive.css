@@ -1,0 +1,21 @@
+@media (max-width:576px){
+    :root {
+    --mr-midnight: #111111;
+    --mr-ivory: #F8F4EC;
+    --mr-orange: #D96C2D;
+    --mr-rose: #B7848C;
+    --mr-fs-h1: clamp(3rem, 7vw, 6rem);
+    --mr-fs-h2: clamp(1.25rem, 3.5vw, 3rem);
+    --mr-fs-h3: clamp(1.5rem, 3vw, 2.25rem);
+    --mr-fs-h4: clamp(1.25rem, 2vw, 1.5rem);
+    --mr-fs-body: clamp(1rem, 1vw, 1.125rem);
+
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--mr-midnight);
+}
+.mr-btn-orange {
+    padding: 10px 15px;
+}
+}
